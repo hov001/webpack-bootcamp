@@ -1,4 +1,4 @@
-function createElement(element = "div", content = "") {
+export default function createElement(element = "div", content = "") {
   const newElement = document.createElement(element);
 
   newElement.insertAdjacentHTML("beforeend", content);
